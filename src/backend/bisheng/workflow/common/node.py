@@ -20,7 +20,8 @@ class NodeType(Enum):
     RAG = "rag"
     REPORT = "report"
     TOOL = "tool"
-
+    # 自定义节点
+    MY_NODE = "my_node"
     NOTE = 'note'  # 备注节点 知识用来显示注释，非实际执行节点
 
 
